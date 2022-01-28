@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap" rel="stylesheet">
+    <title>Jobs Filter</title>
+
+</head>
+<body>
+
+        <div class="banner"></div>
+
+        <div class="search-bar">
+            <div class="show">
+
+                <span class=""></span>
+                <span class=""></span>
+                <span class=""></span>
+                <span class=""></span>
+                <span class=""></span>
+                <span class=""></span>
+                <span class=""></span>
+                <span class=""></span>
+
+            </div>
+            <input class="input" type="text"  onkeyup="search()">
+            <button onclick="clear23()">clear</button>
+        </div>
+
+        <div class="container">
+
+            <div class="job one">
+                <img src="images/photosnap.svg" alt="">
+
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">Phtosnap</div>
+                        <div class="new">NEW!</div>
+                        <div class="featured">FEATURED</div>
+                    </div>
+                    <div class="center">
+                        Senior Frontend Developer
+                    </div>
+                    <div class="bottom">
+                        <span class="time">   1d ago </span>  . <span class="type">   Full Time </span>  . <span class="location">   USA only</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+                        <span class="attributes">Frontend</span>
+                        <span class="attributes">Senior</span>
+                        <span class="attributes">HTML</span>
+                        <span class="attributes">CSS</span>
+                        <span class="attributes">JavaScript</span>
+                </div>
+            </div>
+
+
+            <div class="job two">
+                <img src="images/manage.svg" alt="">
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">Manage</div>
+                        <div class="new">NEW!</div>
+                        <div class="featured">FEATURED</div>
+                    </div>
+                    <div class="center">
+                        Fullstack Developer
+                    </div>
+                    <div class="bottom">
+                        <span class="time">   1d ago </span>  . <span class="type">   Part Time </span>  . <span class="location"> Remote</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+
+                        <span class="attributes">Fullstack</span>
+                        <span class="attributes">Midweight</span>
+                        <span class="attributes">Python</span>
+                        <span class="attributes">React</span>
+                        <span class="attributes">Texas</span>
+                </div>
+            </div>
+
+            <div class="job three">
+                <img src="images/account.svg" alt="">
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">Account</div>
+                        <div class="new">NEW!</div>
+                    </div>
+                    <div class="center">
+                        Junior Frontend Developer
+                    </div>
+                    <div class="bottom">
+                        <span class="time">   2d ago </span>  . <span class="type">   Part Time </span>  . <span class="location">   USA only</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+
+                        <span class="attributes">Frontend</span>
+                        <span class="attributes">Junior</span>
+                        <span class="attributes">React</span>
+                        <span class="attributes">Sass</span>
+                        <span class="attributes">JavaScript</span>
+
+                </div>
+            </div>
+
+            <div class="job four">
+                <img src="images/myhome.svg" alt="">
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">MyHome</div>
+
+                    </div>
+                    <div class="center">
+                        Junior Frontend Developer
+                    </div>
+                    <div class="bottom">
+                        <span class="time">   5d ago </span>  . <span class="type"> Contract </span>  . <span class="location">   USA only</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+                        <span class="attributes">Frontend</span>
+                        <span class="attributes">Junior</span>
+                        <span class="attributes">CSS</span>
+                        <span class="attributes">JavaScript</span>
+                        <span class="attributes">Texas</span>
+                </div>
+            </div>
+
+
+            <div class="job five">
+                <img src="images/loop-studios.svg" alt="">
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">Loop Studios</div>
+                    </div>
+                    <div class="center">
+                        Senior Frontend Developer
+                    </div>
+                    <div class="bottom">
+                        <span class="time">   1w ago </span>  . <span class="type">   Full Time </span>  . <span class="location">Worlwide</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+                        <span class="attributes">Fullstack</span>
+                        <span class="attributes">Midweight</span>
+                        <span class="attributes">JavaScript</span>
+                        <span class="attributes">Sass</span>
+                        <span class="attributes">Ruby</span>
+                </div>
+            </div>
+
+
+            <div class="job six">
+                <img src="images/faceit.svg" alt="">
+
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">FaceIt</div>
+                    </div>
+                    <div class="center">
+                        Junior Backend Developer
+                    </div>
+                    <div class="bottom">
+                        <span class="time">   2w ago </span>  . <span class="type">   Full Time </span>  . <span class="location"> UK only</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+                        <span class="attributes">Backend</span>
+                        <span class="attributes">Junior</span>
+                        <span class="attributes">Ruby</span>
+                        <span class="attributes">RoR</span>
+                        <span class="attributes">Texas</span>
+                </div>
+            </div>
+
+            <div class="job seven">
+                <img src="images/shortly.svg" alt="">
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">Shortly</div>
+                    </div>
+                    <div class="center">
+                        Junior Developer
+                    </div>
+                    <div class="bottom">
+                        <span class="time">   2w ago </span>  . <span class="type">   Full Time </span>  . <span class="location"> Worldwide</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+                        <span class="attributes">Frontend</span>
+                        <span class="attributes">Junior</span>
+                        <span class="attributes">HTML</span>
+                        <span class="attributes">Sass</span>
+                        <span class="attributes">JavaScript</span>
+                </div>
+            </div>
+
+            <div class="job eight">
+                <img src="images/insure.svg" alt="">
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">Insure</div>
+                    </div>
+                    <div class="center">
+                        Junior Frontend Developer
+                    </div>
+                    <div class="bottom">
+                        <span class="time"> 2w ago </span>  . <span class="type">   Full Time </span>  . <span class="location">   USA only</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+                        <span class="attributes">Frontend</span>
+                        <span class="attributes">Junior</span>
+                        <span class="attributes">Vue</span>
+                        <span class="attributes">Sass</span>
+                        <span class="attributes">JavaScript</span>
+
+                </div>
+            </div>
+
+            <div class="job nine">
+                <img src="images/eyecam-co.svg" alt="">
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">Eyecam Co.</div>
+                    </div>
+                    <div class="center">
+                        Full Stack Engineer
+                    </div>
+                    <div class="bottom">
+                        <span class="time">   3w ago </span>  . <span class="type">   Full Time </span>  . <span class="location"> Worldwide</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+                        <span class="attributes">Fullstack</span>
+                        <span class="attributes">Midweight</span>
+                        <span class="attributes">JavaScript</span>
+                        <span class="attributes">Django</span>
+                        <span class="attributes">Python</span>
+                </div>
+            </div>
+
+            <div class="job ten">
+                <img src="images/the-air-filter-company.svg" alt="">
+
+                <div class="job-left">
+                    <div class="top">
+                        <div class="c-name">The Air Filter Company</div>
+                    </div>
+                    <div class="center">
+                         Frontend Dev
+                    </div>
+                    <div class="bottom">
+                        <span class="time"> 1m ago </span>  . <span class="type"> Part Time </span>  . <span class="location"> Worldwide</span>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="job-right">
+                        <span class="attributes">Frontend</span>
+                        <span class="attributes">Junior</span>
+                        <span class="attributes">React</span>
+                        <span class="attributes">Sass</span>
+                        <span class="attributes">JavaScript</span>
+                </div>
+            </div>
+
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
